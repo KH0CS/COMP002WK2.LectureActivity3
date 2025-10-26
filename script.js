@@ -42,14 +42,11 @@ switch (Grade) {
 
 //Once I was able to get the else if one it seemed okay to use. I can see where it can start to get confusing/messy. If you have a lot of statements it can get to be a lot of code.
 
-for (let i = 1; i <= 100; i++)
-    {
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 !== 0) {
+    console.log("!");
+}
+else {
     console.log(i);
 }
-while (i <= 100) {
-    if (i % 2 !== 0) {
-        i = "!";
-        console.log(i);
-    }
-    i++;
 }
